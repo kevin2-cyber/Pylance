@@ -1,0 +1,2 @@
+# Pylance
+For python only
