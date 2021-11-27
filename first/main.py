@@ -6,4 +6,3 @@ class Car:
 
     def drive(self):
         return self.seats
-
