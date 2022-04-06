@@ -1,2 +1,2 @@
 # Pylance
-For python only
+For pure python only
