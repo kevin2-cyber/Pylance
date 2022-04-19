@@ -3,7 +3,6 @@ messages = 'Hello World'
 # Floats
 # constants
 print(messages)
-age = 10
 age_new = [10, 20, 30]
 print(type(age_new))
 person_details = {
