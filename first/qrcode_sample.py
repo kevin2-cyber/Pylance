@@ -15,5 +15,5 @@ qr = qrcode.QRCode(
 qr.add_data("https://abhijithchandradas.medium.com/")
 qr.make(fit=True)
 
-image = qr.make_image(fill_color="green", back_color="black")
+image = qr.make_image(fill_color="yellow", back_color="black")
 image.save("medium.png")
