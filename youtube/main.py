@@ -2,7 +2,7 @@ from pytube import YouTube
 
 downloads = 'C:\\Downloads'
 
-video_link = "https://youtu.be/dQl4izxPeNU"
+video_link = "https://youtu.be/xUodSGUkwGM"
 
 try:
     video = YouTube(video_link)

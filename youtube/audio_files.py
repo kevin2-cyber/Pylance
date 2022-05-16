@@ -2,7 +2,7 @@ from pytube import YouTube
 
 downloads = 'C:\\Downloads'
 
-audio_link = "https://youtu.be/dQl4izxPeNU"
+audio_link = "https://youtu.be/LqVythdYlaQ"
 
 try:
     audio = YouTube(audio_link)
@@ -22,7 +22,7 @@ print(audio.streams.filter(only_audio=True).get_audio_only().itag)
 audio_itag = audio.streams.filter(only_audio=True).get_audio_only().itag
 
 try:
-    file_name = "King of Kings.mp3"
+    file_name = "Good Grace.mp3"
     audio.streams.get_by_itag(audio_itag).download(output_path=downloads, filename=file_name)
 except:
     print("Error downloading")
