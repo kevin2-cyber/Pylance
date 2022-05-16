@@ -22,7 +22,8 @@ print(audio.streams.filter(only_audio=True).get_audio_only().itag)
 audio_itag = audio.streams.filter(only_audio=True).get_audio_only().itag
 
 try:
-    audio.streams.get_by_itag(audio_itag).download(output_path=downloads, filename="King of Kings.mp3")
+    file_name = "King of Kings.mp3"
+    audio.streams.get_by_itag(audio_itag).download(output_path=downloads, filename=file_name)
 except:
     print("Error downloading")
 
