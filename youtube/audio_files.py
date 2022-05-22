@@ -1,12 +1,12 @@
-from pytube import YouTube
+from pytube import YouTube, StreamQuery
 
-downloads = 'C:\\Downloads'
+downloads: str = 'C:\\Downloads'
 
-audio_link = "https://youtu.be/LqVythdYlaQ"
+audio_link: str = "https://youtu.be/rFBuh72C2zo"
 
 try:
-    audio = YouTube(audio_link)
-except:
+    audio: YouTube = YouTube(audio_link)
+finally:
     print("Audio isn't downloading")
 
 print(audio.title)
@@ -14,17 +14,17 @@ print(audio.views)
 print(audio.author)
 print(audio.description)
 
-lst = audio.streams.filter()
+lst: StreamQuery = audio.streams.filter()
 for x in lst:
     print(x)
 
 print(audio.streams.filter(only_audio=True).get_audio_only().itag)
-audio_itag = audio.streams.filter(only_audio=True).get_audio_only().itag
+audio_itag: int = audio.streams.filter(only_audio=True).get_audio_only().itag
 
 try:
-    file_name = "Good Grace.mp3"
+    file_name: str = "Echoes (Till We See The Other Side) [Live] Hillsong UNITED.mp3"
     audio.streams.get_by_itag(audio_itag).download(output_path=downloads, filename=file_name)
-except:
+finally:
     print("Error downloading")
 
 print("Audio downloaded")
