@@ -2,7 +2,7 @@ from pytube import YouTube, StreamQuery
 
 downloads: str = 'C:\\Downloads'
 
-video_link: str = "https://youtu.be/6gHklmfh0KU"
+video_link: str = "https://youtu.be/4MCwKdai51o"
 
 try:
     video: YouTube = YouTube(video_link)
