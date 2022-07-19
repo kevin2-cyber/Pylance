@@ -1,2 +1,1 @@
-
-__name__ == "__main__"
+var = __name__ == "__main__"
