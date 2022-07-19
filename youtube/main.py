@@ -6,8 +6,11 @@ video_link: str = "https://youtu.be/8Dn2UQ__8QM"
 
 try:
     video: YouTube = YouTube(video_link)
-finally:
+except:
     print("video isn't downloading")
+
+finally:
+    print("Downloading Successful")
 
 print(video.title)
 print(video.views)
@@ -23,7 +26,10 @@ video_itag: int = video.streams.filter(progressive=True).get_highest_resolution(
 
 try:
     video.streams.get_by_itag(video_itag).download(output_path=downloads)
-finally:
+except:
     print("Error downloading")
 
-print("Video downloaded")
+finally:
+    print("Video downloaded")
+
+
