@@ -24,7 +24,6 @@ for x in lst:
 video_itag: int = video.streams.filter(progressive=True).get_highest_resolution().itag
 print(video_itag)
 
-
 try:
     video.streams.get_by_itag(video_itag).download(output_path=downloads)
 except:
