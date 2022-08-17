@@ -22,8 +22,8 @@ print(audio.streams.filter(only_audio=True).get_audio_only().itag)
 audio_itag: int = audio.streams.filter(only_audio=True).get_audio_only().itag
 
 try:
-    file_name: str = "It's Your Love - Hillsong Worship.mp3"
-    audio.streams.get_by_itag(audio_itag).download(output_path=downloads, filename=file_name)
+    # file_name: str = "It's Your Love - Hillsong Worship.mp3"
+    audio.streams.get_by_itag(audio_itag).download(output_path=downloads)
 finally:
     print("Error downloading")
 

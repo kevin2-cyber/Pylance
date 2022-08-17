@@ -2,7 +2,7 @@ from pytube import YouTube, StreamQuery
 
 downloads: str = 'C:\\Downloads'
 
-video_link: str = "https://youtu.be/3GhzcPPmptI?list=RDMM"
+video_link: str = "https://youtu.be/oiraX_YypPI?list=RDMM"
 
 try:
     video: YouTube = YouTube(video_link)
@@ -21,8 +21,9 @@ lst: StreamQuery = video.streams.filter()
 for x in lst:
     print(x)
 
-print(video.streams.filter(progressive=True).get_highest_resolution().itag)
 video_itag: int = video.streams.filter(progressive=True).get_highest_resolution().itag
+print(video_itag)
+
 
 try:
     video.streams.get_by_itag(video_itag).download(output_path=downloads)
@@ -31,5 +32,3 @@ except:
 
 finally:
     print("Video downloaded")
-
-
