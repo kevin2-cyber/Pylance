@@ -1,6 +1,6 @@
 from pytube import YouTube, StreamQuery
 
-downloads: str = 'C:\\Downloads'
+downloads: str = '/Users/kelvineduful/Downloads/youtube'
 
 audio_link: str = "https://youtu.be/Db-CF_rfZWs"
 
