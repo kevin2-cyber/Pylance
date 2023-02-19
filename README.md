@@ -1,2 +1,2 @@
 # Pylance
-For pure python only.
+YouTube video downloader
