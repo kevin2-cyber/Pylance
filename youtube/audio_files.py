@@ -2,7 +2,7 @@ from pytube import YouTube, StreamQuery
 
 downloads: str = '/Users/kelvineduful/Downloads/youtube'
 
-audio_link: str = "https://youtu.be/KM07zyBP39M"
+audio_link: str = "https://youtu.be/wxTZiRvPdKA"
 
 try:
     audio: YouTube = YouTube(audio_link)
@@ -24,7 +24,7 @@ print(audio.streams.filter(only_audio=True).get_audio_only().itag)
 audio_itag: int = audio.streams.filter(only_audio=True).get_audio_only().itag
 
 try:
-    file_name: str = "I Desire Jesus - Hillsong Worship.mp3"
+    file_name: str = "ALL I NEED IS YOU - LIVE IN MIAMI - Hillsong UNITED.mp3"
     audio.streams.get_by_itag(audio_itag).download(output_path=downloads, filename=file_name)
 except:
     print("Error downloading")
