@@ -20,7 +20,6 @@ lst: StreamQuery = audio.streams.filter()
 for x in lst:
     print(x)
 
-
 print(audio.streams.filter(only_audio=True).get_audio_only().itag)
 audio_itag: int = audio.streams.filter(only_audio=True).get_audio_only().itag
 
