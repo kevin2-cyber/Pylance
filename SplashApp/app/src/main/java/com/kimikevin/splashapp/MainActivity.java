@@ -12,10 +12,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-//        getSplashScreen().setSplashScreenTheme(R.style.SplashTheme);
+        getSplashScreen().clearOnExitAnimationListener();
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_SplashApp);
         setContentView(binding.getRoot());
     }
 
