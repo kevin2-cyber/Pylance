@@ -9,8 +9,8 @@ try:
 except:
     print("video isn't downloading")
 
-finally:
-    print("Downloading Successful")
+# finally:
+#     print("Downloading Successful")
 
 print(video.title)
 print(video.views)
