@@ -1,6 +1,10 @@
 package org.example;
 
+import com.github.axet.vget.VGet;
+
+import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,5 +28,13 @@ public class Main {
 //        } catch (IOException | InterruptedException | YoutubeDLException e) {
 //            e.printStackTrace();
 //        }
+        try {
+            String url = "https://www.youtube.com/watch?v=s10ARdfQUOY";
+            String path = "/Users/kelvineduful/Downloads/youtube";
+            VGet v = new VGet(new URL(url), new File(path));
+            v.download();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 }
