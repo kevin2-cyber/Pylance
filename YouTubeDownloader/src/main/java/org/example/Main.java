@@ -25,14 +25,14 @@ public class Main {
 //
 //    public static void downloadDL() {
 //        String videoUrl = "https://youtu.be/9i1gQ7w2V24";
-//        String outputDirectory = "/Users/kelvineduful/Downloads/youtube";
+//        String outputDirectory = "/Users/kelvineduful/Downloads/you";
 //
 //        try {
 //            // Create a YouTube downloader instance
 //            YoutubeDL youtubeDL = new YoutubeDL();
 //
 //            // Set the download options
-//            DownloadOption downloadOption = new DownloadOptionBuilder()
+//            DownloadOption dOption = new DownloadOptionBuilder()
 //                    .setOutputDirectory(outputDirectory)
 //                    .build();
 //
