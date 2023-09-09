@@ -28,6 +28,10 @@ public class Main {
 //        } catch (IOException | InterruptedException | YoutubeDLException e) {
 //            e.printStackTrace();
 //        }
+        downloadVGet();
+    }
+
+    public static void downloadVGet() {
         try {
             String url = "https://www.youtube.com/watch?v=8eMCJSbmI3g";
             String path = "/Users/kelvineduful/Downloads/youtube";
