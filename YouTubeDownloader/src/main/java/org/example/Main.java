@@ -15,7 +15,7 @@ public class Main {
 //    public static void downloadVGet() {
 //        try {
 //            String url = "https://www.youtube.com/watch?v=8eMCJSbmI3g";
-//            String path = "/Users/kelvineduful/Downloads/youtube";
+//            String path = "/Users/kelvineduful/Downloads/YouTube";
 //            VGet v = new VGet(new URL(url), new File(path));
 //            v.download();
 //        } catch (Exception e) {

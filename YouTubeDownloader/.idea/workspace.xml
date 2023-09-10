@@ -11,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../youtube/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../youtube/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../youtube/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
@@ -62,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684243708895</updated>
-      <workItem from="1694267064841" duration="867000" />
+      <workItem from="1694267064841" duration="3313000" />
     </task>
     <servers />
   </component>
