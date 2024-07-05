@@ -6,6 +6,8 @@ import jakarta.persistence.Id;
 
 import java.util.Objects;
 
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @Entity
 public class Quote {
     @Id
@@ -53,3 +55,6 @@ public class Quote {
         return "Quote{" + "id=" + id + ", quote='" + quote + '\'' + '}';
     }
 }
+//@JsonIgnoreProperties(ignoreUnknown = true)
+//public record Quote(String type, Value value) {
+//}
