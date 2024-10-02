@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "118603241158",
+    "project_id": "shuttle-tracker-e7f36",
+    "storage_bucket": "shuttle-tracker-e7f36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118603241158:android:f5b2cccc8110fbda1c29c7",
+        "android_client_info": {
+          "package_name": "com.kimikevin.shuttle_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdmwwJx-0RXj-p4tWKECB74pGhL1NPrfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBjQ1q-K6uQ4nnvV70tyA13FI5iXdgCQts</string>
+	<key>GCM_SENDER_ID</key>
+	<string>118603241158</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kimikevin.shuttleTracker</string>
+	<key>PROJECT_ID</key>
+	<string>shuttle-tracker-e7f36</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shuttle-tracker-e7f36.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:118603241158:ios:8a1e7a9ce50e37631c29c7</string>
+</dict>
+</plist>
